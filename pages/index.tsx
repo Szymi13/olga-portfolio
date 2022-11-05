@@ -45,7 +45,7 @@ const Home: NextPage = () => {
 						className="flex w-full flex-1 items-center justify-center px-20 text-center bg-black"
 					>
 						<div className=' h-5/6 w-5/6'>
-							<video controls autoPlay height="100">
+							<video  preload='auto' height="100">
 								<source src="prace/moja_wizytowka.mp4" type="video/mp4" />
 							</video>
 						</div>
