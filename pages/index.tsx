@@ -44,9 +44,13 @@ const Home: NextPage = () => {
 						speed={2.5}
 						className="flex w-full flex-1 items-center justify-center px-20 text-center bg-black"
 					>
-						<div className=' h-5/6 w-5/6'>
-							<video  preload='auto' height="100">
-								<source src="prace/moja_wizytowka.mp4" type="video/mp4" />
+						<div className=" h-5/6 w-5/6">
+							//dodać prace na cloudinary żeby mi vercel wytrzymał
+							<video preload="auto" controls>
+								<source
+									src="https://res.cloudinary.com/dvtbzgcij/video/upload/v1667668358/prace-olgi/moja_wizytowka_ad5z98.mp4"
+									type="video/mp4"
+								/>
 							</video>
 						</div>
 					</ParallaxLayer>
